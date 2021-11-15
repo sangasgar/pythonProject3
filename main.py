@@ -94,6 +94,8 @@ for product in my_product:
             if value not in output_dict.get(key):
                 output_dict.get(key).append(value)
         else:
+
+            
             output_dict.update({key: [value]})
 
 
